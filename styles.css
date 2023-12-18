@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Comfortaa', sans-serif;
+    min-height: 50vh;
+    padding-top: 50px;
+    display: flex;
+    flex-flow: column;
+    gap: 1rem;
+    align-items: center;
+  }
+  
+  .counter {
+    width: 400px;
+    height: 50px;
+    display: flex;
+    text-align: center;
+    align-items: baseline;
+    background: plum;
+  
+  }
+  .counter > * {
+    height: 100%;
+    flex:1;
+    font-size: 32px;
+  }
+  .btn-add{
+    color: black;
+    background-color: skyblue;
+    font-family: 'Comfortaa', sans-serif;
+    width: 120px;
+    height: 40px;
+    box-shadow: 6px 3px 6px gray;
+    border-radius: 20px;
+  }
+  .btn-add:hover{
+    color: black;
+    background-color: white;
+    font-family: 'Comfortaa', sans-serif;
+    width: 120px;
+    height: 40px;
+    box-shadow: 6px 3px 6px gray;
+    border-radius: 20px;
+  }
+  
